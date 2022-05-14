@@ -57,10 +57,10 @@ sub main() {
             #
             # Bijzonder geval:
             #
-            # [na]äpen -> -apen
-            # [na]äpen -> naäpen
+            # [na]Ã¤pen -> -apen
+            # [na]Ã¤pen -> naÃ¤pen
             #
-            # ook voor combinaties [aeiou]\][äëïü]
+            # ook voor combinaties [aeiou]\][Ã¤Ã«Ã¯Ã¼]
 
             # Verwijder commentaarregels.
             $line =~ s/<!--(.*?)-->//g;
