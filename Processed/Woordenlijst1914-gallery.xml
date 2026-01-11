@@ -1,4 +1,4 @@
-<TEI.2 lang="nl-1900" xml:lang="nl-1900"><teiHeader type="text" status="new"><fileDesc><titleStmt><title>Woordenlijst voor de spelling der Nederlandsche taal, met aanwijzing van de geslachten der naamwoorden en de vervoeging der werkwoorden</title><author key="Vries, Matthias de" ref="https://viaf.org/viaf/10072073/">Matthias de Vries (1820&#8211;1892)</author><author key="Winkel, Lammert Allard te" ref="https://viaf.org/viaf/88082650/">Lammert Allard te Winkel (1809&#8211;1868)</author><editor key="Beets, Adriaan" ref="https://viaf.org/viaf/71688235/">Adriaan Beets (1860&#8211;1937)</editor><respStmt><resp>Transcription</resp><name key="Hellingman, Jeroen">Jeroen Hellingman</name></respStmt></titleStmt><publicationStmt><publisher>Project Gutenberg</publisher><pubPlace>Urbana, Illinois, USA.</pubPlace><idno type="PGclearance">20070122142753vries</idno><idno type="PGDPProjectId">projectID45b5c1d60a262</idno><idno type="epub-id">urn:uuid:1abc427d-3959-4dba-8776-93cba5502812</idno><idno type="PGSrc">22722-De-Vries-te-Winkel-Woordenlijst-Nederlandsche-taal</idno><idno type="PGnum">22722</idno><date>2007-09-22</date><availability lang="nl" xml:lang="nl"><p>Dit eBoek is voor kosteloos gebruik door iedereen overal, met vrijwel geen beperkingen van welke soort dan ook. U mag het kopi&#xEB;ren, weggeven of hergebruiken onder de voorwaarden van de Project Gutenberg Licentie in dit eBoek of on-line op <xref url='https://www.gutenberg.org/'>www.gutenberg.org</xref>.
+<TEI.2 lang="nl-1900" xml:lang="nl-1900"><teiHeader><fileDesc><titleStmt><title>Woordenlijst voor de spelling der Nederlandsche taal, met aanwijzing van de geslachten der naamwoorden en de vervoeging der werkwoorden</title><author key="Vries, Matthias de" ref="https://viaf.org/viaf/10072073/">Matthias de Vries (1820&#8211;1892)</author><author key="Winkel, Lammert Allard te" ref="https://viaf.org/viaf/88082650/">Lammert Allard te Winkel (1809&#8211;1868)</author><editor key="Beets, Adriaan" ref="https://viaf.org/viaf/71688235/">Adriaan Beets (1860&#8211;1937)</editor><respStmt><resp>Transcription</resp><name key="Hellingman, Jeroen">Jeroen Hellingman</name></respStmt></titleStmt><publicationStmt><publisher>Project Gutenberg</publisher><pubPlace>Urbana, Illinois, USA.</pubPlace><idno type="PGclearance">20070122142753vries</idno><idno type="PGDPProjectId">projectID45b5c1d60a262</idno><idno type="epub-id">urn:uuid:1abc427d-3959-4dba-8776-93cba5502812</idno><idno type="PGSrc">22722-De-Vries-te-Winkel-Woordenlijst-Nederlandsche-taal</idno><idno type="PGnum">22722</idno><date>2007-09-22</date><availability lang="nl" xml:lang="nl"><p>Dit eBoek is voor kosteloos gebruik door iedereen overal, met vrijwel geen beperkingen van welke soort dan ook. U mag het kopi&#xEB;ren, weggeven of hergebruiken onder de voorwaarden van de Project Gutenberg Licentie in dit eBoek of on-line op <xref url='https://www.gutenberg.org/'>www.gutenberg.org</xref>.
 </p><p>Dit eBoek is geproduceerd door Jeroen Hellingman en het on-line gedistribueerd correctieteam op <xref url="https://www.pgdp.net/">www.pgdp.net</xref>.
 </p><p lang="en" xml:lang="en">This eBook is for the use of anyone anywhere at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at <xref url='https://www.gutenberg.org/'>www.gutenberg.org</xref>.
 </p><p lang="en" xml:lang="en">This eBook is produced by Jeroen Hellingman and the Online Distributed Proofreading Team at <xref url="https://www.pgdp.net/">www.pgdp.net</xref>.
@@ -24,19 +24,19 @@ Dr. <docAuthor>A. Beets</docAuthor>.</byline><docImprint>&#8217;s-Gravenhage en 
 <lb/>
 Martinus Nijhoff, A. W. Sijthoff&#8217;s Uitg.-Mij.</docImprint></titlePage></front><body><div1 type="Contents"><head>Overzicht van bestanden</head><p>Dit boek is beschikbaar in een aantal varianten.
 
-<table><row role="label"><cell rows="1" cols="1">Beschrijving
-        </cell><cell rows="1" cols="1">Bestandsnaam
-    </cell></row><row><cell rows="1" cols="1">HTML-bestand in oorspronkelijke vorm.
-        </cell><cell rows="1" cols="1"><xref url="Woordenlijst1914.html">Woordenlijst1914.html</xref>
-    </cell></row><row><cell rows="1" cols="1">HTML-bestand waarin alle woorden in de woordenlijst voluit zijn geschreven.
-        </cell><cell rows="1" cols="1"><xref url="Woordenlijst1914-full.html">Woordenlijst1914-full.html</xref>
-    </cell></row><row><cell rows="1" cols="1">Tekstbestand in oorspronkelijke vorm.
-        </cell><cell rows="1" cols="1"><xref url="Woordenlijst1914.txt">Woordenlijst1914.txt</xref>
-    </cell></row><row><cell rows="1" cols="1">Tekstbestand waarin alle woorden in de woordenlijst voluit zijn geschreven.
-        </cell><cell rows="1" cols="1"><xref url="Woordenlijst1914-full.txt">Woordenlijst1914-full.txt</xref>
-    </cell></row><row><cell rows="1" cols="1">Kale lijst van alle woorden in de woordenlijst, ISO-8859-1 tekenverzameling.
-        </cell><cell rows="1" cols="1"><xref url="Woordenlijst1914-words-ansi.txt">Woordenlijst1914-words-ansi.txt</xref>
-    </cell></row><row><cell rows="1" cols="1">Kale lijst van alle woorden in de woordenlijst, Unicode (UTF-8) tekenverzameling.
-        </cell><cell rows="1" cols="1"><xref url="Woordenlijst1914-words-utf8.txt">Woordenlijst1914-words-utf8.txt</xref></cell></row></table>
+<table><row role="label"><cell>Beschrijving
+        </cell><cell>Bestandsnaam
+    </cell></row><row><cell>HTML-bestand in oorspronkelijke vorm.
+        </cell><cell><xref url="Woordenlijst1914.html">Woordenlijst1914.html</xref>
+    </cell></row><row><cell>HTML-bestand waarin alle woorden in de woordenlijst voluit zijn geschreven.
+        </cell><cell><xref url="Woordenlijst1914-full.html">Woordenlijst1914-full.html</xref>
+    </cell></row><row><cell>Tekstbestand in oorspronkelijke vorm.
+        </cell><cell><xref url="Woordenlijst1914.txt">Woordenlijst1914.txt</xref>
+    </cell></row><row><cell>Tekstbestand waarin alle woorden in de woordenlijst voluit zijn geschreven.
+        </cell><cell><xref url="Woordenlijst1914-full.txt">Woordenlijst1914-full.txt</xref>
+    </cell></row><row><cell>Kale lijst van alle woorden in de woordenlijst, ISO-8859-1 tekenverzameling.
+        </cell><cell><xref url="Woordenlijst1914-words-ansi.txt">Woordenlijst1914-words-ansi.txt</xref>
+    </cell></row><row><cell>Kale lijst van alle woorden in de woordenlijst, Unicode (UTF-8) tekenverzameling.
+        </cell><cell><xref url="Woordenlijst1914-words-utf8.txt">Woordenlijst1914-words-utf8.txt</xref></cell></row></table>
 
 </p></div1></body></text></TEI.2>

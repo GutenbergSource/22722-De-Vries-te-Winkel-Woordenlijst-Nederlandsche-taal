@@ -1,23 +1,28 @@
 <!DOCTYPE html
 PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<!-- This HTML file has been automatically generated from an XML source on 2022-05-14T10:36:04Z using SAXON HE 9.9.1.8 . -->
+<!-- This HTML file has been automatically generated from an XML source on 2026-01-11T11:53:26Z using SAXON HE 9.9.1.8 . -->
 <html lang="nl">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Woordenlijst voor de spelling der Nederlandsche taal, met aanwijzing van de geslachten der naamwoorden en de vervoeging der werkwoorden</title>
+<meta charset="utf-8">
 <meta name="generator" content="tei2html.xsl, see https://github.com/jhellingman/tei2html">
-<meta name="author" content="Matthias de Vries (1820–1892) Lammert Allard te Winkel (1809–1868)">
+<meta name="author" content="Matthias de Vries (1820–1892)">
+<meta name="author" content="Lammert Allard te Winkel (1809–1868)">
 <link rel="coverpage" href="images/new-cover.jpg">
-<link rel="schema.DC" href="http://dublincore.org/documents/1998/09/dces/">
-<meta name="DC.Creator" content="Matthias de Vries (1820–1892) Lammert Allard te Winkel (1809–1868)">
+<link rel="icon" href="images/new-cover.jpg" type="image/x-cover">
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
 <meta name="DC.Title" content="Woordenlijst voor de spelling der Nederlandsche taal, met aanwijzing van de geslachten der naamwoorden en de vervoeging der werkwoorden">
+<meta name="DC.Creator" content="Matthias de Vries (1820–1892)">
+<meta name="DC.Creator" content="Lammert Allard te Winkel (1809–1868)">
+<meta name="DC.Contributor" content="Adriaan Beets (1860–1937)">
 <meta name="DC.Date" content="2007-09-22">
 <meta name="DC.Language" content="nl-1900">
 <meta name="DC.Format" content="text/html">
 <meta name="DC.Publisher" content="Project Gutenberg">
-<meta name="DC.Rights" content="Dit boek is vrij van auteursrechten in de Verenigde Staten. Als u elders woont, raadpleeg dan alstublieft de wetgeving in uw land voordat u dit boek downloadt.">
+<meta name="DC.Rights" content="Dit boek is vrij van auteursrechten in de Verenigde Staten. Als u ergens anders woont, raadpleeg dan alstublieft de wetgeving in uw land voordat u dit boek downloadt.">
 <meta name="DC.Identifier" content="https://www.gutenberg.org/ebooks/22722">
-<style type="text/css"> /* <![CDATA[ */
+<style> /* <![CDATA[ */
 html {
 line-height: 1.3;
 }
@@ -45,7 +50,6 @@ background-color: transparent;
 abbr[title] {
 border-bottom: none;
 text-decoration: underline;
-text-decoration: underline dotted;
 }
 b, strong {
 font-weight: bolder;
@@ -144,7 +148,7 @@ text-align: right;
 .alignblock {
 text-align: justify;
 }
-p.tb, hr.tb, .par.tb {
+p.tb, hr.tb, .par.tb, li.tb {
 margin: 1.6em auto;
 text-align: center;
 }
@@ -194,7 +198,7 @@ margin-top: 3.6em;
 span.abbr, abbr {
 white-space: nowrap;
 }
-span.parnum {
+span.parNum {
 font-weight: bold;
 }
 span.corr, span.gap {
@@ -344,12 +348,14 @@ background-color: #e9f5ff;
 }
 a.noteRef, a.pseudoNoteRef {
 font-size: 67%;
-line-height: 0;
-position: relative;
-vertical-align: baseline;
-top: -0.5em;
+vertical-align: super;
 text-decoration: none;
 margin-left: 0.1em;
+}
+.externalUrl {
+font-size: small;
+font-family: monospace;
+color: gray;
 }
 .displayfootnote {
 display: none;
@@ -372,7 +378,6 @@ margin-top: 0.5em;
 p.footnote .fnlabel, .par.footnote .fnlabel {
 float: left;
 margin-left: -0.1em;
-margin-top: 0.9em;
 min-width: 1.0em;
 padding-right: 0.4em;
 }
@@ -388,6 +393,10 @@ margin-left: auto;
 margin-right: auto;
 border-width: 0;
 border-collapse: collapse;
+}
+td.tocText {
+padding-top: 2em;
+padding-bottom: 1em;
 }
 td.tocPageNum, td.tocDivNum {
 text-align: right;
@@ -488,6 +497,11 @@ line-height: 0.7em;
 span.musictime span.bottom {
 display: block;
 }
+audio {
+height: 20px;
+margin-left: 0.5em;
+margin-right: 0.5em;
+}
 ul {
 list-style-type: none;
 }
@@ -534,10 +548,17 @@ font-weight: bold;
 }
 .titlePage .docTitle .mainTitle {
 font-size: 1.8em;
+font-weight: inherit;
+font-variant: inherit;
+line-height: inherit;
 }
-.titlePage .docTitle .subTitle, .titlePage .docTitle .seriesTitle,
+.titlePage .docTitle .subTitle,
+.titlePage .docTitle .seriesTitle,
 .titlePage .docTitle .volumeTitle {
 font-size: 1.44em;
+font-weight: inherit;
+font-variant: inherit;
+line-height: inherit;
 }
 .titlePage .byline {
 margin: 2em 0;
@@ -560,10 +581,14 @@ line-height: 1.5;
 font-size: 1.2em;
 font-weight: bold;
 }
-div.figure {
+div.figure, div.figureGroup {
 text-align: center;
 }
-.figure {
+table.figureGroupTable {
+width: 80%;
+border-collapse: collapse;
+}
+.figure, .figureGroup {
 margin-left: auto;
 margin-right: auto;
 }
@@ -590,7 +615,7 @@ float: left;
 .figTopRight, .figBottomRight {
 float: right;
 }
-.figure p, .figure .par {
+.figure p, .figure .par, .figureGroup p, .figureGroup .par {
 font-size: 80%;
 margin-top: 0;
 text-align: center;
@@ -635,19 +660,19 @@ table.borderOutside td {
 padding-left: 4px;
 padding-right: 4px;
 }
-table.borderOutside .cellHeadTop, table.borderOutside .cellTop {
+table.borderOutside .cell-head-top, table.borderOutside .cell-top {
 border-top: 2px solid black;
 }
-table.borderOutside .cellHeadBottom {
+table.borderOutside .cell-head-bottom {
 border-bottom: 1px solid black;
 }
-table.borderOutside .cellBottom {
+table.borderOutside .cell-bottom {
 border-bottom: 2px solid black;
 }
-table.borderOutside .cellLeft, table.borderOutside .cellHeadLeft {
+table.borderOutside .cell-left, table.borderOutside .cell-head-left {
 border-left: 2px solid black;
 }
-table.borderOutside .cellRight, table.borderOutside .cellHeadRight {
+table.borderOutside .cell-right, table.borderOutside .cell-head-right {
 border-right: 2px solid black;
 }
 table.verticalBorderInside {
@@ -658,16 +683,16 @@ padding-left: 4px;
 padding-right: 4px;
 border-left: 1px solid black;
 }
-table.verticalBorderInside .cellHeadTop, table.verticalBorderInside .cellTop {
+table.verticalBorderInside .cell-head-top, table.verticalBorderInside .cell-top {
 border-top: 2px solid black;
 }
-table.verticalBorderInside .cellHeadBottom {
+table.verticalBorderInside .cell-head-bottom {
 border-bottom: 1px solid black;
 }
-table.verticalBorderInside .cellBottom {
+table.verticalBorderInside .cell-bottom {
 border-bottom: 2px solid black;
 }
-table.verticalBorderInside .cellLeft, table.verticalBorderInside .cellHeadLeft {
+table.verticalBorderInside .cell-left, table.verticalBorderInside .cell-head-left {
 border-left: 0 solid black;
 }
 table.borderAll,
@@ -680,32 +705,32 @@ padding-left: 4px;
 padding-right: 4px;
 border: 1px solid black;
 }
-table.borderAll .cellHeadTop, table.borderAll .cellTop,
-table.rtlBorderAll .cellHeadTop, table.rtlBorderAll .cellTop {
+table.borderAll .cell-head-top, table.borderAll .cell-top,
+table.rtlBorderAll .cell-head-top, table.rtlBorderAll .cell-top {
 border-top: 2px solid black;
 }
-table.borderAll .cellHeadBottom,
-table.rtlBorderAll .cellHeadBottom {
+table.borderAll .cell-head-bottom,
+table.rtlBorderAll .cell-head-bottom {
 border-bottom: 1px solid black;
 }
-table.borderAll .cellBottom,
-table.rtlBorderAll .cellBottom {
+table.borderAll .cell-bottom,
+table.rtlBorderAll .cell-bottom {
 border-bottom: 2px solid black;
 }
-table.borderAll .cellLeft,
-table.borderAll .cellHeadLeft {
+table.borderAll .cell-left,
+table.borderAll .cell-head-left {
 border-left: 2px solid black;
 }
-table.borderAll .cellRight,
-table.borderAll .cellHeadRight {
+table.borderAll .cell-right,
+table.borderAll .cell-head-right {
 border-right: 2px solid black;
 }
-table.rtlBorderAll .cellLeft,
-table.rtlBorderAll .cellHeadLeft {
+table.rtlBorderAll .cell-left,
+table.rtlBorderAll .cell-head-left {
 border-right: 2px solid black;
 }
-table.rtlBorderAll .cellRight,
-table.rtlBorderAll .cellHeadRight {
+table.rtlBorderAll .cell-right,
+table.rtlBorderAll .cell-head-right {
 border-left: 2px solid black;
 }
 tr.borderTop td, tr.borderTop th, th.borderTop, td.borderTop {
@@ -755,8 +780,11 @@ tr.borderAll td, tr.borderAll th, th.borderAll, td.noBorderAll {
 border: none !important;
 }
 .cellDoubleUp {
-border: 0 solid black !important;
+border-width: 0 !important;
 width: 1em;
+}
+.cellDummy {
+border-width: 0 !important;
 }
 td.alignDecimalIntegerPart {
 text-align: right;
@@ -857,6 +885,10 @@ background-color: #FFFFDC;
 .exlink:hover, .wplink:hover, .biblink:hover, .qurlink:hover, .seclin:hover {
 background-color: #FFDCDC;
 }
+abbr[title] {
+border-bottom: none;
+text-decoration: underline dotted;
+}
 body {
 background: #FFFFFF;
 font-family: serif;
@@ -893,8 +925,6 @@ font-weight: bold;
 .cover-imagewidth {
 width:480px;
 }
-@media handheld {
-}
 /* ]]> */ </style>
 </head>
 <body>
@@ -916,7 +946,7 @@ Aanwijzing van de geslachten der naamwoorden en de vervoeging der werkwoorden,</
 </div>
 <div class="byline">Door
 <br>
-<span class="docAuthor">M. de Vries</span> en <span class="docAuthor">L. A. te Winkel</span>.
+<span class="docAuthor">M. de Vries</span> en <span class="docAuthor">L.&nbsp;A. te Winkel</span>.
 <br>
 Zevende uitgave,
 <br>
@@ -925,11 +955,11 @@ Bezorgd door
 Dr. <span class="docAuthor">A. Beets</span>.</div>
 <div class="docImprint">’s-Gravenhage en Leiden,
 <br>
-Martinus Nijhoff, A. W. Sijthoff’s Uitg.-Mij.</div>
+Martinus Nijhoff, A.&nbsp;W. Sijthoff’s Uitg.-Mij.</div>
 </div>
 </div>
 <div class="body">
-<div class="div1 contents">
+<div class="div1 last-child contents">
 <div class="divHead">
 <h2 class="main">Overzicht van bestanden</h2>
 </div>
@@ -940,47 +970,47 @@ Martinus Nijhoff, A. W. Sijthoff’s Uitg.-Mij.</div>
 <table>
 <thead>
 <tr class="label">
-<td class="cellHeadLeft cellHeadTop cellHeadBottom">Beschrijving
+<td class="cell-head-left cell-head-top cell-head-bottom">Beschrijving
 </td>
-<td class="cellHeadRight cellHeadTop cellHeadBottom">Bestandsnaam
+<td class="cell-head-right cell-head-top cell-head-bottom">Bestandsnaam
 </td>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="cellLeft">HTML-bestand in oorspronkelijke vorm.
+<td class="cell-left">HTML-bestand in oorspronkelijke vorm.
 </td>
-<td class="cellRight"><a class="exlink xd31e33" title="Externe link" href="Woordenlijst1914.html">Woordenlijst1914.html</a>
-</td>
-</tr>
-<tr>
-<td class="cellLeft">HTML-bestand waarin alle woorden in de woordenlijst voluit zijn geschreven.
-</td>
-<td class="cellRight"><a class="exlink xd31e33" title="Externe link" href="Woordenlijst1914-full.html">Woordenlijst1914-full.html</a>
+<td class="cell-right"><a class="exlink xd33e33" title="Externe link" href="Woordenlijst1914.html">Woordenlijst1914.html</a>
 </td>
 </tr>
 <tr>
-<td class="cellLeft">Tekstbestand in oorspronkelijke vorm.
+<td class="cell-left">HTML-bestand waarin alle woorden in de woordenlijst voluit zijn geschreven.
 </td>
-<td class="cellRight"><a class="exlink xd31e33" title="Externe link" href="Woordenlijst1914.txt">Woordenlijst1914.txt</a>
-</td>
-</tr>
-<tr>
-<td class="cellLeft">Tekstbestand waarin alle woorden in de woordenlijst voluit zijn geschreven.
-</td>
-<td class="cellRight"><a class="exlink xd31e33" title="Externe link" href="Woordenlijst1914-full.txt">Woordenlijst1914-full.txt</a>
+<td class="cell-right"><a class="exlink xd33e33" title="Externe link" href="Woordenlijst1914-full.html">Woordenlijst1914-full.html</a>
 </td>
 </tr>
 <tr>
-<td class="cellLeft">Kale lijst van alle woorden in de woordenlijst, ISO-8859-1 tekenverzameling.
+<td class="cell-left">Tekstbestand in oorspronkelijke vorm.
 </td>
-<td class="cellRight"><a class="exlink xd31e33" title="Externe link" href="Woordenlijst1914-words-ansi.txt">Woordenlijst1914-words-ansi.txt</a>
+<td class="cell-right"><a class="exlink xd33e33" title="Externe link" href="Woordenlijst1914.txt">Woordenlijst1914.txt</a>
 </td>
 </tr>
 <tr>
-<td class="cellLeft cellBottom">Kale lijst van alle woorden in de woordenlijst, Unicode (UTF-8) tekenverzameling.
+<td class="cell-left">Tekstbestand waarin alle woorden in de woordenlijst voluit zijn geschreven.
 </td>
-<td class="cellRight cellBottom"><a class="exlink xd31e33" title="Externe link" href="Woordenlijst1914-words-utf8.txt">Woordenlijst1914-words-utf8.txt</a></td>
+<td class="cell-right"><a class="exlink xd33e33" title="Externe link" href="Woordenlijst1914-full.txt">Woordenlijst1914-full.txt</a>
+</td>
+</tr>
+<tr>
+<td class="cell-left">Kale lijst van alle woorden in de woordenlijst, ISO-8859-1 tekenverzameling.
+</td>
+<td class="cell-right"><a class="exlink xd33e33" title="Externe link" href="Woordenlijst1914-words-ansi.txt">Woordenlijst1914-words-ansi.txt</a>
+</td>
+</tr>
+<tr>
+<td class="cell-left cell-bottom">Kale lijst van alle woorden in de woordenlijst, Unicode (UTF-8) tekenverzameling.
+</td>
+<td class="cell-right cell-bottom"><a class="exlink xd33e33" title="Externe link" href="Woordenlijst1914-words-utf8.txt">Woordenlijst1914-words-utf8.txt</a></td>
 </tr>
 </tbody>
 </table>

@@ -1,0 +1,22 @@
+= Over dit archief
+
+Dit archief bevat het TEI-bronbestand, evenals afgeleide tekst- en HTML-bestanden van een eboek dat is gepubliceerd door https://www.gutenberg.org/[Project Gutenberg]. Net als de versie die op Project Gutenberg is gepubliceerd, is dit eboek vrij van auteursrechten in de Verenigde Staten. Er wordt geen uitspraak gedaan over de auteursrechtelijke status buiten de Verenigde Staten.
+
+De versie die in dit archief wordt onderhouden, kan enigszins afwijken van de versie die bij Project Gutenberg wordt beheerd. Meestal worden correcties eerst hier aangebracht en pas daarna opnieuw op Project Gutenberg geplaatst. Wanneer je een probleem tegenkomt in deze tekst, meld het dan hier.
+
+== Over dit eboek
+
+[cols="1,3"]
+|===
+|Veld |Waarde
+
+|Titel |Woordenlijst voor de spelling der Nederlandsche taal, met aanwijzing van de geslachten der naamwoorden en de vervoeging der werkwoorden
+|Auteur |Matthias de Vries (1820–1892)
+|Auteur |Lammert Allard te Winkel (1809–1868)
+|Uitgever |Project Gutenberg, Urbana, Illinois, USA., 2007-09-22
+|Uitgiftedatum |2007-09-22
+|Beschikbaarheid |Dit eBoek is voor kosteloos gebruik door iedereen overal, met vrijwel geen beperkingen van welke soort dan ook. U mag het kopiëren, weggeven of hergebruiken onder de voorwaarden van de Project Gutenberg Licentie in dit eBoek of on-line op https://www.gutenberg.org/[www.gutenberg.org]. Dit eBoek is geproduceerd door Jeroen Hellingman en het on-line gedistribueerd correctieteam op https://www.pgdp.net/[www.pgdp.net]. This eBook is for the use of anyone anywhere at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at https://www.gutenberg.org/[www.gutenberg.org]. This eBook is produced by Jeroen Hellingman and the Online Distributed Proofreading Team at https://www.pgdp.net/[www.pgdp.net].
+|Aantal woorden |200188 (ongeveer 977 bladzijden) 
+|PG eboeknummer |https://www.gutenberg.org/ebooks/22722[22722]
+|QR-code voor download a|image::Processed/images/qr22722.png[QR code,148,148]
+|===
